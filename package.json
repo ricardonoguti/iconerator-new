@@ -9,10 +9,10 @@
   ],
   "private": false,
   "description": "Generate all app market icons from a single input image (iOS + Android + Web)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardonoguti/iconerator-new"
+    "url": "git+https://github.com/ricardonoguti/iconerator-new.git"
   },
   "bugs": {
     "url": "https://github.com/ricardonoguti/iconerator-new/issues"
@@ -40,7 +40,12 @@
   },
   "main": "index.js",
   "bin": {
-    "iconerator": "./bin/iconerator"
+    "iconerator": "bin/iconerator"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ricardonoguti/iconerator-new#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
