@@ -1,0 +1,8 @@
+# Ignore node modules
+node_modules
+
+ios_icons
+android_icons
+web_icons
+icon.png
+tmp

@@ -1,0 +1,46 @@
+{
+  "name": "iconerator-new",
+  "keywords": [
+    "icons",
+    "app icons",
+    "app icon generator",
+    "iOS",
+    "Android"
+  ],
+  "private": false,
+  "description": "Generate all app market icons from a single input image (iOS + Android + Web)",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardonoguti/iconerator-new"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardonoguti/iconerator-new/issues"
+  },
+  "author": "Ricardo Noguti",
+  "dependencies": {
+    "async": "0.2.5",
+    "commander": "~2.0.0",
+    "fs-extra": "^8.1.0",
+    "gm": "^1.23.1",
+    "imagemagick": "~0.1.3",
+    "merge-dirs": "^0.2.1",
+    "mkdirp": "^1.0.3",
+    "sharp": "^0.32.1",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec"
+  },
+  "main": "index.js",
+  "bin": {
+    "iconerator": "./bin/iconerator"
+  },
+  "license": "MIT"
+}
